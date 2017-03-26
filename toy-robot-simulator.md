@@ -7,11 +7,11 @@
 
 
 #### Create an application that can read in commands of the following form -
-PLACE X,Y,F
-MOVE
-LEFT
-RIGHT
-REPORT
+PLACE X,Y,F <br>
+MOVE <br>
+LEFT <br>
+RIGHT <br>
+REPORT <br>
 
 - PLACE will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST. 
 - The origin (0,0) can be considered to be the SOUTH WEST most corner.
@@ -30,23 +30,23 @@ The toy robot must not fall off the table during movement. This also includes th
 Any move that would cause the robot to fall must be ignored.
 
 #### Example Input and Output:
-a)
-PLACE 0,0,NORTH
-MOVE
-REPORT
-Output: 0,1,NORTH
+a) <br>
+PLACE 0,0,NORTH <br>
+MOVE <br>
+REPORT <br>
+Output: 0,1,NORTH <br>
 
-b)
-PLACE 0,0,NORTH
-LEFT
-REPORT
-Output: 0,0,WEST
+b) <br>
+PLACE 0,0,NORTH <br>
+LEFT <br>
+REPORT <br>
+Output: 0,0,WEST <br>
 
-c)
-PLACE 1,2,EAST
-MOVE
-MOVE
-LEFT
-MOVE
-REPORT
-Output: 3,3,NORTH
+c) <br>
+PLACE 1,2,EAST <br>
+MOVE <br>
+MOVE <br>
+LEFT <br>
+MOVE <br>
+REPORT <br>
+Output: 3,3,NORTH <br>
