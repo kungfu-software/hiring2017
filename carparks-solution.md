@@ -33,72 +33,58 @@ Provide a production ready solution including source
 files, project structure and any testing you have used.
 
 
-Example #1
+### Example #1
 
 --------------------------------------------------
 
 Program: How many spaces does the car park have?
 
-User: 10
+User: 10 <br>
+User: ENTER CAR <br>
+User: ENTER TRUCK <br>
+User: REPORT <br>
 
-User: ENTER CAR
+Program: <br>
+Cars Entered: 1 <br>
+Trucks Entered: 1 <br>
+Cars Exited: 0 <br>
+Trucks Exited: 0 <br>
+Parking Cars: 1 <br>
+Parking Trucks: 1 <br>
+Spaces available: 7 <br>
+Fees paid: $0 <br>
 
-User: ENTER TRUCK
-
-User: REPORT
-
-Program: 
-
-Cars Entered: 1
-Trucks Entered: 1
-Cars Exited: 0
-Trucks Exited: 0
-Parking Cars: 1
-Parking Trucks: 1
-Spaces available: 7
-Fees paid: $0
-
-User: QUIT
+User: QUIT <br>
 
 
-Example #2
+### Example #2
 
 --------------------------------------------------
 
-Program: How many spaces does the car park have?
+Program: How many spaces does the car park have? <br>
+User: 15 <br>
+User: ENTER CAR <br>
+User: ENTER TRUCK <br>
+User: EXIT CAR 2 <br>
+User: REPORT <br>
+Program: <br>
+Cars Entered: 1 <br>
+Trucks Entered: 1 <br>
+Cars Exited: 1 <br>
+Trucks Exited: 0 <br>
+Parking Cars: 0 <br>
+Parking Trucks: 1 <br>
+Spaces available: 13 <br>
+Fees paid: $4 <br>
 
-User: 15
-
-User: ENTER CAR
-
-User: ENTER TRUCK
-
-User: EXIT CAR 2
-
-User: REPORT
-
-Program: 
-
-Cars Entered: 1
-Trucks Entered: 1
-Cars Exited: 1
-Trucks Exited: 0
-Parking Cars: 0
-Parking Trucks: 1
-Spaces available: 13
-Fees paid: $4
-
-User: QUIT
+User: QUIT <br>
 
 
-/********************************************************************************************
+### Test Instructions:
 
-Test Instructions:
-
-Applicants are asked to: 
+### Applicants are asked to: 
 - solve the problem using java | javascript | python | groovy | ruby. 
 - solve the problem in their own time. There is no time limit, but we would expect someone with ~5-~10 years experience would be able to complete the test in 2 or 3 business days.
 - solve the problem as though it were "production level" code.
 
 
-********************************************************************************************/
