@@ -1,7 +1,7 @@
 CAR PARK SIMULATION
 =====================================================
 
-Using Java create a simulation of a car park. The 
+Create a simulation of a car park. The 
 program will record vehicles entering and exiting the car 
 park, as well as the total balance of parking fees paid.
 
