@@ -19,8 +19,6 @@ Output
 For each test case, output one line containing "Case #x: " followed by 
 the list of words in reverse order. 
 
-Limits 
-
 Small dataset 
 
 N = 5 
